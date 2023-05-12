@@ -1,8 +1,12 @@
 const nextConfig = {
   basePath: "/{next_blog}",
-  output: {
-    // Set your desired output directory
-    directory: 'out',
-    // ...
-  },
 }
+module.exports = {
+  // ...
+  images: {
+    loader: 'imgix',
+    path: '',
+    unoptimized: true,
+  },
+};
+
