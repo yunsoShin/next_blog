@@ -3,10 +3,10 @@ const nextConfig = {
 }
 module.exports = {
   // ...
-  images: {
-    loader: 'imgix',
-    path: '',
-    unoptimized: true,
+  output: {
+    // Set your desired output directory
+    directory: 'out',
+    // ...
   },
 };
 
