@@ -5,8 +5,8 @@ module.exports = {
   // ...
   images: {
     loader: 'imgix',
-    path: '',
-    unoptimized: true,
+    path: 'https://yunsoshin.github.io/next_blog/',
+
   },
 };
 
